@@ -1,0 +1,17 @@
+{
+  "name": "socket_server",
+  "version": "1.0.0",
+  "description": "The Primondi socket server",
+  "author": "Mr. Bagheri_BED",
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "express": "^4.16.4",
+    "socket.io": "latest",
+    "fs": "latest"
+  }
+}
